@@ -1,0 +1,18 @@
+{
+  "name": "vite-project-crud-app",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch database/db.json",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
